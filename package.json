@@ -1,0 +1,19 @@
+{
+  "name": "recipe-scrapers",
+  "version": "1.0.0",
+  "description": "A recipe scraping scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js | tap-nyan"
+  },
+  "author": "Jerry Sievert <code@legitimatesounding.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.6.3"
+  }
+}
