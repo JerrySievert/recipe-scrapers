@@ -1,6 +1,6 @@
 {
   "name": "recipe-scrapers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A recipe scraping scaffold",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "microformat-node": "^2.0.1",
     "request": "^2.81.0"
   },
   "devDependencies": {
